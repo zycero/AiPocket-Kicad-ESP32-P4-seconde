@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AI_Pocket_LCSC")(type "KiCad")(uri "${KIPRJMOD}/libs/AI_Pocket_LCSC.pretty")(options "")(descr "LCSC footprints (easyeda2kicad)"))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AI_Pocket_LCSC")(type "KiCad")(uri "${KIPRJMOD}/libs/AI_Pocket_LCSC.kicad_sym")(options "")(descr "LCSC parts (easyeda2kicad)"))
+)

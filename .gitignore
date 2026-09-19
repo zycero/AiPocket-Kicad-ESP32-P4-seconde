@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────
+# AI_Pocket (KiCad 10) .gitignore
+# 策略：最精简 —— 只版本化 KiCad 工程 + 库符号/封装 + .md 文档 + BOM
+# 大体积资料(datasheet PDF / 3D STEP)与历史快照一律不入库
+# ─────────────────────────────────────────────
+
+# ── macOS ──
+.DS_Store
+
+# ── 编辑器 local history / KiCad 自动备份目录 ──
+.history/
+backups/
+*-backups/
+
+# ── 历史快照目录(CLAUDE.md：不要当现状读) ──
+archive/
+
+# ── 手动快照 / 中间备份(KiCad 工程的各种 .bak 变体) ──
+*.bak
+*.bak-*
+*.before-*
+*.broken-*
+
+# ── KiCad 临时 / 缓存 / 锁 / 自动保存 ──
+*.kicad_pro.lock
+*.kicad_prl.lock
+fp-info-cache
+_autosave-*.kicad_sch
+_autosave-*.kicad_pcb
+*-save.kicad_pcb
+
+# ── kicad-cli 生成物(ERC/DRC/网表/BOM 导出) ──
+*.net
+*.rpt
+BOM_for_JLC.xml
+
+# ── 量产输出 / BOM 可视化(可由 KiCad 重新生成的产物，一律不版本化) ──
+/gerber/
+/jlcpcb/
+/production/
+/bom/
+AI_Pocket_iBOM.html
+# ↑ production/bom.csv 是 BOM 真相源之一，但属可再导出产物，按精简策略不入库；
+#   如需版本化可加一行 !/production/bom.csv 反忽略
+
+# ── 孤立 / 无用文件(CLAUDE.md：untitled 无人引用) ──
+untitled.kicad_sch
+
+# ── datasheet 资料：全部软链到 ~/hardware-docs 单源库，本仓一律不版本化 ──
+# 库(~/hardware-docs，云盘单一副本)才是唯一真相源；项目内 datasheets/ 全是
+# 指向库的软链(_chips/ 逐芯片 + 屏/板文件夹)，换机/clone 后需库存在才有效
+datasheets/
+# 3D 模型(STEP / WRL，体积大)
+3dmodels/
+*.step
+*.stp
+*.STEP
+*.wrl
+*.3dshapes/
