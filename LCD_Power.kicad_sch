@@ -1552,6 +1552,12 @@
 		(uuid "3928731b-033a-4df7-bb7a-d212e7337d14")
 	)
 	(junction
+		(at 176.53 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39e925a6-d3a4-4194-be81-8431e1f2b7a5")
+	)
+	(junction
 		(at 147.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1586,6 +1592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8867810-bdcf-45d6-b5a7-35d2285e4aaf")
+	)
+	(junction
+		(at 176.53 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb80169d-4b04-4cdc-968d-8cf2eadd2592")
 	)
 	(wire
 		(pts
@@ -1629,6 +1641,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db6f1d2-3d92-4d53-952d-b4b41c5424a3")
+	)
+	(wire
+		(pts
 			(xy 104.14 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -1649,16 +1671,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 128.27) (xy 132.08 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d43595-1f8d-4188-94c2-f291ab560b4d")
-	)
-	(wire
-		(pts
 			(xy 104.14 93.98) (xy 104.14 97.79)
 		)
 		(stroke
@@ -1669,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 180.34 116.84)
+			(xy 173.99 116.84) (xy 176.53 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1686,6 +1698,16 @@
 			(type default)
 		)
 		(uuid "2dd2e807-2e13-4bb5-99b7-fbafc659fba9")
+	)
+	(wire
+		(pts
+			(xy 176.53 111.76) (xy 176.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca9422b-04cd-4bd7-a6ec-9e69c9bd2fea")
 	)
 	(wire
 		(pts
@@ -1789,6 +1811,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 124.46) (xy 176.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2169f5-f306-4f19-b314-d1c6076b61bf")
+	)
+	(wire
+		(pts
 			(xy 153.67 85.09) (xy 153.67 88.9)
 		)
 		(stroke
@@ -1819,6 +1851,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 124.46) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832dcbbb-97fa-47e0-90dd-e9ddce4cb607")
+	)
+	(wire
+		(pts
 			(xy 186.69 86.36) (xy 186.69 91.44)
 		)
 		(stroke
@@ -1826,16 +1868,6 @@
 			(type default)
 		)
 		(uuid "84e77d20-ccbf-4d0c-a838-0084fab05be1")
-	)
-	(wire
-		(pts
-			(xy 123.19 121.92) (xy 132.08 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88268160-1a55-4e45-83d2-6dcb5b50c4b2")
 	)
 	(wire
 		(pts
@@ -1889,6 +1921,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 111.76) (xy 176.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d91ecf6-9375-416e-9c2d-27cdf0a72375")
+	)
+	(wire
+		(pts
 			(xy 104.14 88.9) (xy 107.95 88.9)
 		)
 		(stroke
@@ -1919,6 +1961,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 116.84) (xy 180.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e318bb59-c95b-429e-89d4-64aed998c9db")
+	)
+	(wire
+		(pts
 			(xy 153.67 88.9) (xy 163.83 88.9)
 		)
 		(stroke
@@ -1929,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 119.38) (xy 180.34 119.38)
+			(xy 173.99 119.38) (xy 176.53 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2081,81 +2133,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b206d43-0d7e-4e6a-95d9-e80b580e77c3")
-		(property "Reference" "#PWR0148"
-			(at 127 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LEDK"
-			(at 120.142 127.508 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "506e8215-2b3f-4e3a-a9ed-6ee695af970b")
-		)
-		(instances
-			(project "AI_Pocket"
-				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
-					(reference "#PWR0148")
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2234,6 +2214,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0144")
 					(unit 1)
 				)
@@ -2350,6 +2336,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2462,6 +2454,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2541,6 +2539,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2616,6 +2620,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0149")
 					(unit 1)
 				)
@@ -2732,6 +2742,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "R39")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2814,11 +2830,17 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 132.08 128.27 270)
+		(at 179.07 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2829,7 +2851,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e3fb887-cccb-4938-a06d-96b5fdf39151")
 		(property "Reference" "#FLG09"
-			(at 133.985 128.27 0)
+			(at 180.975 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2862,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.89 128.2699 90)
+			(at 182.88 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +2873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 128.27 0)
+			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,7 +2884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 128.27 0)
+			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +2895,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 128.27 0)
+			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,6 +2911,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#FLG09")
 					(unit 1)
 				)
@@ -2964,6 +2992,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0170")
 					(unit 1)
 				)
@@ -3102,6 +3136,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3173,6 +3213,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0154")
 					(unit 1)
 				)
@@ -3289,81 +3335,9 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7de01570-bc78-44ca-b51b-25e8f4bf0cc6")
-		(property "Reference" "#PWR0147"
-			(at 127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LEDA"
-			(at 120.142 121.158 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d311094-79b4-452f-9601-bba75b2f231f")
-		)
-		(instances
-			(project "AI_Pocket"
-				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
-					(reference "#PWR0147")
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3345,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 132.08 121.92 270)
+		(at 179.07 111.76 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3382,7 +3356,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a54e4cd-51aa-4b76-9cdb-c0f96908fe05")
 		(property "Reference" "#FLG08"
-			(at 133.985 121.92 0)
+			(at 180.975 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3367,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.89 121.9199 90)
+			(at 182.88 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3404,7 +3378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 121.92 0)
+			(at 179.07 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 121.92 0)
+			(at 179.07 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3400,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 121.92 0)
+			(at 179.07 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,6 +3416,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#FLG08")
 					(unit 1)
 				)
@@ -3558,6 +3538,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3633,6 +3619,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0171")
 					(unit 1)
 				)
@@ -3716,6 +3708,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3795,6 +3793,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3866,6 +3870,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0152")
 					(unit 1)
 				)
@@ -3949,6 +3959,12 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4024,6 +4040,12 @@
 		(instances
 			(project "AI_Pocket"
 				(path "/5584b79b-7904-48ba-af6c-af0d174e08e1/e50f759a-692e-472f-a63c-8d96cdbd81ab/8ea6f002-c374-49e9-babb-982289c6c16f"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
 					(reference "#PWR0151")
 					(unit 1)
 				)
@@ -4140,6 +4162,18 @@
 					(unit 1)
 				)
 			)
+			(project "LCD_Power"
+				(path "/f5657c13-b71d-4d72-8467-08808059e512"
+					(reference "C58")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
